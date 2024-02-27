@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    
+}
+.font-lobster,.fnt-lobster{
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;    
+}
+.logo{
+    width: 10%;
+}
+#oculto{
+    display: none;
+}
+
+
+/* Torta */
+
+#chartContainer{
+    height: 300px; 
+    width: 60%;
+    
+}
+.canvasjs-chart-credit{
+    display: none;
+}
+.canvasjs-chart-toolbar{
+    display: none;
+}
