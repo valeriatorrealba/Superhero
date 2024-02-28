@@ -1,32 +1,74 @@
+html{
+    height: 100%;
+}
+
 body{
     margin: 0px;
     padding: 0px;
     font-family: 'Cabin', sans-serif;
     color: #373A3C;
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #e1e2e1;
 }
+
+/* NavBar */
+.logo{
+    width: 5%;
+}
+/* NavBAr y Footer */
 .font-lobster,.fnt-lobster{
     font-family: 'Lobster', sans-serif;
     font-size: 30px;    
 }
-.logo{
-    width: 10%;
-}
+
+/* Seccion de Superheroe */
 #oculto{
     display: none;
 }
 
-
 /* Torta */
-
-#chartContainer{
+#chartContainer, canvasjs-chart-canvas{
     height: 300px; 
-    width: 60%;
-    
+    width: 60%;    
 }
 .canvasjs-chart-credit{
     display: none;
 }
 .canvasjs-chart-toolbar{
     display: none;
+}
+
+/* Footer */
+footer{
+    margin-top: auto;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 575.98px) {
+    .logo{
+        width: 15%;
+    }
+    footer a{
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 575.98px) and (max-width: 767.98px){ 
+    .logo{
+        width: 15%;
+    }
+    footer a{
+        font-size: 8px;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px ){ 
+    .logo{
+        width: 10%;
+    }
+    footer a{
+        font-size: 8px;
+    }
 }

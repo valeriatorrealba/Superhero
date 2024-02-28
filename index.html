@@ -13,11 +13,10 @@
 </head>
 <body>
     <!-- Inicio Menú -->
-    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
-            <a class="navbar-brand font-lobster lobster-txt" href="#">
-                <img src="assets/img/sh2.jpg" alt="logo-superhero" class="logo">SuperHero
-            </a>
+            <img src="assets/img/sh2.jpg" alt="logo-superhero" class="logo me-3">
+            <a class="navbar-brand font-lobster lobster-txt" href="#">SuperHero</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -63,16 +62,16 @@
     <!-- Fin header -->
 
     <!-- Inicio Busca tu heroe -->
-    <div id="oculto" class="container justify-content-center" >
+    <div id="oculto" class="container-fluid justify-content-center" >
         <h2 class="text-center fs-1 my-5">SuperHero Encontrado</h2>
         <div class="row">
-            <div class="col col-sm-10 col-md-4 my-8">
+            <div class="col-sm-7 col-md-8 col-lg-4 my-8 text-center">
                 <div class="card mb-3 p-0" style="max-width: 640px;">            
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <img id="imagen" class="img-fluid rounded-start">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-9">
                             <div class="card-body">
                             <h5 class="card-title" id="nombre"></h5>
                             <p id="conexiones" class="card-text fst-italic"></p>
@@ -88,7 +87,7 @@
                 </div>
             </div>
             <!-- Esta es la Torta -->
-            <div id="chartContainer" class="col col-sm-10 col-md-4 "></div>            
+            <div id="chartContainer" class="col-sm-6 col-md-4 col-lg-4 mb-5 text-end"></div>            
         </div>
     </div>
     <!-- Fin Buscar tu Heroes     -->
