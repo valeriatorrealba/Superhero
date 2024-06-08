@@ -1,6 +1,6 @@
 # Prueba - Encuentra tu SuperHero
 
-En este desafío se ocupo Html5, Css3, Boostrap, JavaScript, Jquery, Canvasjs, SuperHero API
+En este desafío se ocupo Html5, Css3, Bootstrap, JavaScript, JQuery, CanvasJS, SuperHero API
 
 - Se creo la estructura básica para la pagina web implementando HTML, incluyendo un formulario de búsqueda.
 - Se agrego estilos mediante frameworks y librerias de CSS
