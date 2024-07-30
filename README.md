@@ -32,3 +32,7 @@ Este archivo es el punto de entrada de la aplicación y contiene la estructura p
 - **HTML**: Utiliza etiquetas y estructuras básicas de HTML5.
 - **CSS**: Utiliza Bootstrap 5 para la estructura y diseño, con estilos personalizados adicionales.
 - **JavaScript**: Utiliza jQuery para manipulación del DOM y CanvasJS para generar gráficos.
+
+## Autor
+
+Este proyecto fue desarrollado por **Valeria Torrealba**.
